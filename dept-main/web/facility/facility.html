@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EIE</title>
+  <link rel="icon" type="image/x-icon" href="./logo.png">
+  <link rel="stylesheet" href="./facility.css">
+ 
+
+  <script>
+
+    var imageSources = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image7.jpg", "image8.jpg"]
+
+    var index = 0;
+    setInterval(function () {
+      if (index === imageSources.length) {
+        index = 0;
+      }
+      document.getElementById("image").src = imageSources[index];
+      index++;
+    }, 2000);
+      function myFunction() {
+        var txt;
+        if (confirm("Mail Sent!")) {
+          txt = "Mail sent";
+        } else {
+          txt = "Mail Cancel!";
+        }
+        document.getElementById("demo").innerHTML = txt;
+      }
+      function myFunction1() {
+        alert("Page is loaded");
+      }
+  </script>
+  
+</head>
+
+<body onload="myFunction1()">
+  
+  </div>
+  <div class="header">
+    <div class="bg">
+      <img src="./logo.png" id="img" alt="logo">
+      <h2 class="head1">ELECTRONIC AND INSTRUMENTATION ENGINEERING</h2>
+    </div>
+    <div class="topnav" style="font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;">
+      <a class="active" href="/dept-main/web/index.html">Home</a>
+      <a href="/dept-main/web/placement.html">Placement</a>
+      <a href="/dept-main/web/dk.html">Faculties</a>
+      <a href="/dept-main/web/facility/facility.html">Facility</a>
+      <a href="/dept-main/web/achieve.html">Achievement</a>
+    </div>
+  </div>
+  <div class="slide1" align="middle">
+    <img id="image" src="./image1.jpg"
+      style="width:1100px;height:500px;filter:drop-shadow(1px 2px 2px rgb(202, 201, 201));border:2px solid white;margin: top 2px ">
+  </div><br>
+  <div class="faci">
+    <h1 style="text-align:center;font-size:40px;"><img src="./image/facility-management.png" style="width:35px">Facility</h1>
+    <div class="yo1">
+      <h3 style="margin-left:606px" style="color:white">SIEMENS</h3>
+      <div class="yo">
+        <img src="./image1.jpg" width="600px" style="margin-left:30px ;">
+        <img src="./image5.jpg" width="600px" style="margin-left:30px ;">
+      </div>
+      <p>To help students take an extra mile industrial automation for building a technology of superior quality,
+        Siemens
+        automation lab is set in KCT. This lab will give hand-on training on research and testing in automation.</p>
+    </div><br>
+    <div class="yce">
+      <h3 style="margin-left:608px">YOKOGAWA</h3>
+      <div class="yo">
+        <img src="./image6.jpg" width="600px" style="margin-left:30px ;">
+        <img src="./image7.jpg" width="600px" style="margin-left:30px ;">
+      </div>
+      <p>Yokogawa distributed control systems provide the industry’s highest field-proven system availability,
+        enterprise-wide interoperability, extensive advanced solutions portfolio, and third-party-certified
+        defense-in-depth
+        cybersecurity to increase productivity and improve plant operations.</p>
+    </div><br>
+    <div class="fluke">
+      <h3 style="margin-left:629px ;">FLUKE</h3>
+      <div class="yo">
+        <img src="./image2.jpg" width="600px" style="margin-left:40px ;">
+        <img src="./image3.jpg" width="600px" style="margin-left:30px ;">
+      </div>
+      <p>Fluke Corporation, the world leader in the manufacture, distribution and service of electronic test equipment
+        and
+        software is set up in KCT with an aim to enhance students’ practical knowledge in calibration.</p>
+    </div>
+    <div class="pd">
+      <h3 style="margin-left:420px">Process Dynamics and Control Laboratory</h3>
+      <div class="yo">
+        <img src="./image4.jpg" width="1000px" height="500px" style="margin-left:150px ;">
+      </div>
+      <p>The Advanced Process Control Lab is developed to trained our under graduate with thel
+        advanced concepts used in the process industries. Some of the facilities are study of MODBUS
+        concept, process control rig with level, flow control loops, control valve characteristic (equal percentage),
+        cascade control loop, ratio control loop and feed forward control loop. The lab has latest data acquisition
+        systems
+        with National Instrument (NI) software LabVIEW.</p>
+    </div>
+    <div class="fluke">
+      <h3 style="margin-left:480px">Field Instrumentation Laboratory</h3>
+      <div class="yo">
+        <img src="./image8.jpg" width="1000px" height="500px" style="margin-left:150px ;">
+      </div>
+      <p>A group of products that measure pressure, flow rate, temperature, and level, all of which are essential
+        factors
+        in plant operations. High-performance sensors that are based on proprietary state-of-the-art technology and
+        designed for high reliability ensure stable and high-precision performance under all circumstances.</p>
+    </div>
+    <div class="pd">
+      <h3 style="margin-left:480px" >Sensors and Transducers Laboratory</h3>
+      <div class="yo">
+        <img src="./IMG-20230418-WA0006.jpg" width="600px" style="margin-left:40px ;">
+        <img src="./IMG-20230418-WA0005.jpg" width="600px" style="margin-left:30px ;">
+      </div>
+      <p>The main objectives of Sensors and transducers lab are developing the ability to measure and normalize the
+        characteristics and construction details of
+        different sensors.Analyze suitable signal conditioning circuits for resistive, reactance and self-generating
+        sensors.</p>
+    </div>
+    <div class="fluke">
+      <h3 style="margin-left:540px">Analog Laboratory</h3>
+      <div class="yo">
+        <img src="./IMG_20230428_210126.jpg" width="600px" style="margin-left:40px ;">
+        <img src="./IMG-20230418-WA0008.jpg" width="600px" style="margin-left:30px ;">
+      </div>
+      <p>In this laboratory, students will get to explore and learn various concepts regarding analog electrical
+        signals,
+        networks and measurement of various electrical components.</p>
+    </div>
+  </div>
+
+</body>
+<!-------------------------------------------FOOTER--------------------------------->
+<footer>
+  <div id="contact" class="footer" style="font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;">
+    <div class="foot">
+      <h4 style="font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;">CONTACT DETAILS</h4>
+    </div>
+    <div class="footer1">
+      <h3 class="adress" style="font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;margin-left: 40px;">College :
+        0422-2661100 <br>
+        Fax : 0422-2669406 <br>
+        Placement : 0422-2661515 <br>
+        Principal : 0422-2661121 <br>
+        E-mail : <a href="mailto:info@kct.ac.in">info@kct.ac.in</a> <br>
+      </h3>
+      <h3 class="foot1">Address :<br>
+        Kumaraguru College of Technology, <br>
+        Saravanamaptti, <br>
+        Chinnavedampatti, <br>
+        Coimbatore- 641049, <br>
+        Tamilnadu.
+      </h3>
+    </div><br>
+    <div class="foot2" style="text-align:center;">
+      Follow Us On:-
+    </div><br>
+    <div class="foot3" align="middle">
+      <img src="/dept-main/web/image/follow/icons8-instagram-144.png" width="50px"></a>
+      <img src="/dept-main/web/image/follow/icons8-facebook-color/icons8-facebook-48.png">
+      <img src="/dept-main/web/image/follow/icons8-linkedin-circled-color/icons8-linkedin-circled-48.png">
+      <img src="/dept-main/web/image/follow/icons8-linkedin-circled-color/icons8-linkedin-circled-48.png">
+    </div>
+    <div>
+      <div class="rights">&copy; copyright &copy; 2023 DEPARTMENT OF EIE,Coimbatore-641049</div>
+    </div>
+  </div>
+</footer>
+
+</html>

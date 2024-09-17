@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    "notebook.formatOnSave.enabled": true,
+    "editor.formatOnSaveMode": "modifications",
+    "liveServer.settings.port": 5501
+}
